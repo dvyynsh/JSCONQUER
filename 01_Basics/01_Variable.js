@@ -13,3 +13,4 @@ because of issue in block scope and fuctional scope
 
 // we can also print all in once
 console.table([accountCity,accountEmail,accountId,accountPassword,status])
+
