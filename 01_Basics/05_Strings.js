@@ -24,12 +24,15 @@ console.log(anotherString);
 
 const newStringOne = "   hitesh    "
 console.log(newStringOne);
-console.log(newStringOne.trim());
+console.log(newStringOne.trim());    // removes the extra spaces from the start and end of the string
 
 const url = "https://hitesh.com/hitesh%20choudhary"
 
 console.log(url.replace('%20', '-'))
 
-console.log(url.includes('sundar'))
+console.log(url.includes('sundar'))   // return false becuase url me "sundar" word nahi hai
 
-console.log(gameName.split('-'));
+// split method is used to split a string into an array of substrings based on a specified separator
+// example string: "hitesh-choudhary"  ----> split by '-' separator ----> ["hitesh", "choudhary"]
+let game = "hitesh-choudhary"
+console.log(game.split('-'));     
