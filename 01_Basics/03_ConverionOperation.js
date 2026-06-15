@@ -49,10 +49,10 @@ let str2 = " hitesh"
 let str3 = str1 + str2
 // console.log(str3);
 
-// console.log("1" + 2);
-// console.log(1 + "2");
-// console.log("1" + 2 + 2);
-// console.log(1 + 2 + "2");
+// console.log("1" + 2);       No error, it will convert 2 into string and then concatenate
+// console.log(1 + "2");       same as above, it will convert 1 into string and then concatenate
+// console.log("1" + 2 + 2);   122
+// console.log(1 + 2 + "2");   32 how?
 
 // console.log( (3 + 4) * 5 % 3);
 
