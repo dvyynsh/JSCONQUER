@@ -27,3 +27,17 @@ let b = Number(a)
 console.log(b)         // return NaN -> Not a number because we can't convert mixture of string-number..
 
 
+
+//-------------------------------------------------------------------------------------------------------
+
+
+console.log(Number(null))          // return "0" as it converted into 0
+console.log(Number(undefined))     // return "NaN"
+
+//if >,<=,>=,< These used (then null ---> Number , undefined ---> NaN me convert ho jayega)
+console.log(null>=0)   // True
+console.log(null<=0)   // True
+console.log(null<0)    // False
+console.log(null>0)    // False
+console.log(10>"10")   // False
+console.log(10>="10")  // True
