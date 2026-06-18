@@ -47,3 +47,8 @@ console.log(Math.floor(Math.random()*11) + 15)
 
 // Also Formula
 console.log(Math.floor(Math.random()*(max-min+1))+ min)
+
+// OTP generate (1000-9999)
+console.log(Math.floor(Math.random()*(9999-1000+1))+ 1000)
+// But it only gives illusion and there are security issue if we generate througth this 
+// So we are using cryptoLibraray 
