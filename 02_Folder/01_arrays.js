@@ -28,3 +28,25 @@ const arr2 = ["dvyynsh",11,true]
 arr1.push(arr2);
 // But returns [10,30,50,90,11,["dvyynsh",11,true]]
 
+arr1.concat(arr2);
+// returns a new array
+
+const arr3 = [...arr1, ...arr2]
+// returns [10,30,50,90,11,"dvyynsh",11,true]
+
+const a = [101,90,80,32,91];
+a.sort();
+a.reverse();
+// returns [101,32,80,90,91]
+// because it checks step-by-step
+// Also if string then compare charactor-by-charactor
+
+arr.sort((a,b)=>a-b)
+// Now this function will return Correct
+// a-b ---- if negative then returns 1st
+// a-b ---- if positive then returns 2nd
+
+arr.sort((a,b)=>b-a)
+// decending order
+
+arr.flat(Infinity)   // Saab ko flat kar do
