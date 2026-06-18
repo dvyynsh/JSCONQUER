@@ -18,3 +18,12 @@ console.log(str3.slice(2,5))       // Returns sliced string
 // don't need to memorize these, just search google.....
 
 
+// Very Usefull
+// Like in backend if user typed space
+str1.trim(), str1.trimstart(), str1.trimEnd()
+
+let userinput ="   dvyynsh ";
+console.log(userinput.trim());
+
+// It will spilt in terms of " " and make a List .
+console.log(userimput.split(" "))
