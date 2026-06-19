@@ -62,7 +62,7 @@ const squareNumber = num => num*num;
 
 
 /* ------------------------------------------------------------------------------------------- */
-//CALLBACK()
+// CALLBACK()
 // Heart of JS
 // We can Pass argument as a fuction
 
@@ -73,7 +73,7 @@ function greet(){
 
 function meet(callback){
     console.log("BYE-BYE")
-    callback();
+    callback();              
 }
 
 meet(greet);       
