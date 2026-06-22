@@ -59,3 +59,28 @@ const result = products
 
     console.log(result);
 
+
+
+// set Data Structure
+// is a list that have unique elements, duplicacy not allowed
+
+// This is how we create set
+const arr = [10,20,30,30,30,40,40,50,60]
+const S1 = new Set(arr);          // returns [10,20,30,40,50,60]
+
+S1.has(34)       // return true or false
+S1.delete(50) 
+
+
+
+// Map
+const m1 = new Map([
+    ["Rohit", 40],
+    [true, 11],
+    [[10,30,11], "dvyynsh"]
+]);
+
+console.log(m1)
+
+// if Want to add new element in Map
+m1.set({name:"Divyansh", age:20}, false)
